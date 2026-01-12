@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 250px;
+      padding: 16px;
+      font-family: 'Segoe UI', sans-serif;
+      background: #1a1a1a;
+      color: #fff;
+      margin: 0;
+    }
+    h1 {
+      font-size: 14px;
+      margin: 0 0 16px 0;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #333;
+    }
+    .site-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+    }
+    .site-name {
+      font-size: 13px;
+    }
+    .toggle {
+      position: relative;
+      width: 40px;
+      height: 20px;
+    }
+    .toggle input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #444;
+      border-radius: 20px;
+      transition: 0.3s;
+    }
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 14px;
+      width: 14px;
+      left: 3px;
+      bottom: 3px;
+      background-color: #fff;
+      border-radius: 50%;
+      transition: 0.3s;
+    }
+    input:checked + .slider {
+      background-color: #4CAF50;
+    }
+    input:checked + .slider:before {
+      transform: translateX(20px);
+    }
+    .links {
+      margin-top: 16px;
+      padding-top: 12px;
+      border-top: 1px solid #333;
+    }
+    .links a {
+      display: block;
+      color: #8B78E6;
+      text-decoration: none;
+      font-size: 12px;
+      padding: 6px 0;
+      transition: color 0.2s;
+    }
+    .links a:hover {
+      color: #A292EB;
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS Override</h1>
+  <div id="sites"></div>
+  <div class="links">
+    <a href="https://meatything.com/palette" target="_blank">Color Viewer</a>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

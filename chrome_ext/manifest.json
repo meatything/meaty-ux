@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "CSS Override",
+  "version": "1.0",
+  "description": "Override CSS styles on specific websites",
+  "permissions": [
+    "storage",
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "*://github.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "CSS Override"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

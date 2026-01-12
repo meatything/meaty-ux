@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html,
+body,
+.AppHeader,
+.AppHeader-globalBar,
+.AppHeader-localBar {
+  background-color: #121212 !important;
+}
+
+* {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* Remove borders from containers */
+.border,
+.border-bottom,
+.border-top,
+.border-left,
+.border-right,
+.Box,
+.Box--overlay,
+.rounded-2[class*="border"] {
+  border: none !important;
+}
+
+/* Terminal/code block backgrounds */
+.copyable-terminal,
+.copyable-terminal-content,
+.Box-row,
+.highlight,
+.blob-code,
+.blob-wrapper,
+pre,
+code,
+.markdown-body pre,
+.markdown-body code {
+  background-color: rgba(6, 6, 6, 0.2) !important;
+}

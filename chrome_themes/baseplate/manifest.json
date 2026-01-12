@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Baseplate",
+  "version": "1.0.0",
+  "description": "Baseplate Chrome theme",
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/background.png"
+    },
+    "colors": {
+      "frame": [180, 180, 180],
+      "frame_inactive": [180, 180, 180],
+      "frame_incognito": [36, 36, 36],
+      "frame_incognito_inactive": [18, 18, 18],
+      "background_tab": [180, 180, 180],
+      "background_tab_inactive": [144, 144, 144],
+      "background_tab_incognito": [24, 24, 24],
+      "background_tab_incognito_inactive": [18, 18, 18],
+      "toolbar": [208, 208, 208],
+      "toolbar_button_icon": [72, 72, 72],
+      "tab_text": [18, 18, 18],
+      "tab_background_text": [36, 36, 36],
+      "tab_background_text_inactive": [72, 72, 72],
+      "tab_background_text_incognito": [162, 162, 162],
+      "tab_background_text_incognito_inactive": [126, 126, 126],
+      "bookmark_text": [18, 18, 18],
+      "button_background": [24, 24, 24],
+      "omnibox_background": [180, 180, 180],
+      "omnibox_text": [24, 24, 24],
+      "ntp_background": [24, 24, 24],
+      "ntp_header": [162, 162, 162],
+      "ntp_link": [51, 154, 240],
+      "ntp_text": [192, 192, 192]
+    },
+    "tints": {
+      "buttons": [0.0, 0.0, 0.5]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom left",
+      "ntp_background_repeat": "no-repeat"
+    }
+  }
+}
