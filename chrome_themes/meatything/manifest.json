@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "Meatything",
+  "version": "1.0.0",
+  "description": "Meatything Chrome theme",
+  "theme": {
+    "images": {
+      "theme_ntp_background": "images/background.png"
+    },
+    "colors": {
+      "frame": [18, 18, 18],
+      "frame_inactive": [24, 24, 24],
+      "frame_incognito": [48, 48, 48],
+      "frame_incognito_inactive": [60, 60, 60],
+      "background_tab": [30, 30, 30],
+      "background_tab_inactive": [24, 24, 24],
+      "background_tab_incognito": [72, 72, 72],
+      "background_tab_incognito_inactive": [60, 60, 60],
+      "toolbar": [18, 18, 18],
+      "toolbar_button_icon": [180, 180, 180],
+      "tab_text": [222, 222, 222],
+      "tab_background_text": [144, 144, 144],
+      "tab_background_text_inactive": [108, 108, 108],
+      "tab_background_text_incognito": [162, 162, 162],
+      "tab_background_text_incognito_inactive": [126, 126, 126],
+      "bookmark_text": [237, 237, 237],
+      "button_background": [18, 18, 18],
+      "omnibox_background": [12, 12, 12],
+      "omnibox_text": [237, 237, 237],
+      "ntp_background": [18, 18, 18],
+      "ntp_header": [144, 144, 144],
+      "ntp_link": [51, 154, 240],
+      "ntp_text": [222, 222, 222]
+    },
+    "tints": {
+      "buttons": [0.0, 0.0, 0.5]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom left",
+      "ntp_background_repeat": "no-repeat"
+    }
+  }
+}
