@@ -57,8 +57,8 @@ Optional: Add a fourth value for transparency: `[R, G, B, A]` where A is 0.0-1.0
 
 ## Meatything Color Mapping
 
-- **Base**: #121212 (18, 18, 18) - Consistent with the Chrome extension
-- **Dark Theme**: Slightly lighter than BattleCard for differentiation
-- **Text**: Light neutral colors for contrast (neutral.400, neutral.300)
+- **Light Theme**: Using lighter grays than Baseplate (220-240 range)
+- **Frame/Toolbar**: #DCDCDC to #F0F0F0 (220-240)
+- **Text**: Dark neutral colors for contrast (18-72)
 - **Accents**: Blue links for familiarity
-- **Incognito**: Slightly lighter than normal mode for distinction
+- **Incognito**: Dark mode for distinction
