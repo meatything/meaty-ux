@@ -1,5 +1,6 @@
 const sites = [
-  { id: 'github', name: 'GitHub', pattern: '*://github.com/*', hostPattern: 'github.com', css: 'styles/github.css' }
+  { id: 'github', name: 'GitHub', pattern: '*://github.com/*', hostPattern: 'github.com', css: 'styles/github.css' },
+  { id: 'gmail', name: 'Gmail', pattern: '*://mail.google.com/*', hostPattern: 'mail.google.com', css: 'styles/gmail.css' }
 ];
 
 // Inject or remove CSS based on site state

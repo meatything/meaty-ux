@@ -1,0 +1,9 @@
+/* Hide footer (Program Policies / Powered by Google) */
+.aeG {
+  display: none !important;
+}
+
+/* Hide Support button */
+[data-tooltip="Support"] {
+  display: none !important;
+}

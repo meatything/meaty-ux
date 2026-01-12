@@ -9,7 +9,8 @@
     "activeTab"
   ],
   "host_permissions": [
-    "*://github.com/*"
+    "*://github.com/*",
+    "*://mail.google.com/*"
   ],
   "action": {
     "default_popup": "popup.html",
